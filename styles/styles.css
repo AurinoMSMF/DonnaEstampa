@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('/components/Fonts/DancingScript-Bold.ttf') format(truetype),
+    url('/components/Fonts/DancingScript-Medium.ttf') format(truetype),
+    url('/components/Fonts/DancingScript-Regular.ttf') format(truetype),
+    url('/components/Fonts/DancingScript-SemiBold.ttf') format(truetype);
+}
+
+body{
+    background-color: #E7D6DE;
+    margin: 0 auto;
+    padding: 25px;
+    font-family: 'DancingScript';
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#homeImg{
+    width: 250px;
+}
+
+#homeBtn{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+ul{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px;
+}
+
+a{
+    color: #D07C93;
+    font-size: 25px;
+}
+
+a:hover{
+    transition: 0.3s;
+    color:#F7F4F0;
+}
+
+#contatoBtn{
+    color: #D07C93;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+#contatoBtn:hover{
+    background-color: #9CC5A1;
+    color: #F7F4F0;
+}
+
+main{
+    padding: 40px;
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    font-size: 60px;
+    color: #F7F4F0;
+}
+
+h2{
+    font-size: 35px;
+    color: #D07C93;
+}
+
+h3{
+    font-size: 25px;
+    color: #D07C93;
+}
+
+#divContatos{
+    line-height: 10px;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+#bodyImg{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 150px;
+    width: 300px;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
