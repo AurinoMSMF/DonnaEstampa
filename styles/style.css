@@ -113,3 +113,31 @@ footer{
     text-align: center;
     margin: 0 auto;
 }
+
+.div-form{
+	width: 400px;
+	height: 250px;
+	background-color: #c39bd3;
+	padding: 10px;
+	border-radius: 10px
+}
+
+.div-form label{
+	font-weight: bold;
+	color: white;	
+}
+
+#orders-table{
+	border: 1px solid;
+}
+
+tr td{
+	font-size: 20px;
+	padding: 10px
+}
+
+textarea{
+	width: 250px;
+	height: 80px;
+	resize: none;
+}

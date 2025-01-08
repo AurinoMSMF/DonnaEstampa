@@ -1,0 +1,41 @@
+<div id="order_page">
+		<div style="display: flex; align-items: center; justify-content: center;">	
+			<table id="orders-table">	
+				<thead>
+					<tr>
+						<td>Nome</td>
+						<td>E-mail</td>
+						<td>Nº de tel.</td>
+						<td>Pedido</td>
+					</tr>
+				</thead>	
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div style="height: 100vh; display: flex; align-items: center; justify-content: center;">
+			<div class="div-form" >	
+				<form id="message-form"  accept-charset="utf-8">
+					<label>Seu nome</label>
+					<br>
+					<input type="text" value="" name="clientName"/>
+					<br>
+					<label>Seu e-mail</label>
+					<br>
+					<input type="email" value="" name="email"/>
+					<br>
+					<label>Número de celular</label>
+					<br>
+					<input type="text" value="" name="cellphone"/>
+					<br>
+					<label>Faça seu pedido</label>
+					<br>
+					<textarea placeholder="Escreva aqui..." name="order"></textarea>
+					<br>
+					<input action="onSubmit()" type="submit" value="Enviar" name="button-submit" id=""/>
+				</form>
+			</div>	
+		</div>
+		<script src="./js/submit.js" charset="utf-8">	
+		</script>
+</div>
